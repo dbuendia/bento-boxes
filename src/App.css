@@ -1,3 +1,17 @@
+.vegetable ul {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.vegetable li {
+  width: fit-content;
+}
+
+
+/**************/
+
 .App {
   text-align: center;
 }
@@ -9,7 +23,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
